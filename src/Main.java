@@ -52,11 +52,14 @@ public class Main {
         System.out.println("задание 4");
 
         for (int h = 0; h < massiveInt.length; h++) {
-            if (massiveInt[h] % 2 == 0) {
-                System.out.print(massiveInt[h] + " ");
-                } if (massiveInt[h] % 2 != 0) {
-                    System.out.print(massiveInt[h] + 1 + " ");
-                }
+            if (massiveInt[h] % 2 != 0) {
+                massiveInt[h] ++;
+            }
+            System.out.print(massiveInt[h] + " ");
+                //System.out.print(massiveInt[h] + " ");
+                //} if (massiveInt[h] % 2 != 0) {
+                //    System.out.print(massiveInt[h] + 1 + " ");
+                //}
         }
     }
 }
